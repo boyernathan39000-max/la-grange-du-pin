@@ -1,0 +1,31 @@
+/* LA GRANGE DU PIN — charte validée le 23/09/2026 : mix A + B « Eau douce × Camp Poster ».
+   Palette issue du logo. Règle d'or : le VERT n'apparaît que sur les boutons d'action. */
+:root {
+  --sable: #F5F1E8;
+  --sable-fonce: #EBE4D4;
+  --blanc: #FFFFFF;
+  --encre: #0F3A40;          /* textes, contours, ombres dures */
+  --encre-douce: #40585C;    /* textes secondaires */
+  --lac: #3DBFC7;            /* turquoise du logo : aplats, stickers, pictos */
+  --lac-pale: #DDF3F4;
+  --lac-fonce: #1E8C95;      /* turquoise lisible sur fond clair */
+  --soleil: #F2DC2E;         /* surligneur, stickers, pastilles */
+  --soleil-pale: #FFF6B8;
+  --vert: #ABD91A;           /* BOUTONS UNIQUEMENT */
+  --vert-survol: #96C40F;
+  --vert-texte: #173300;
+
+  --display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --texte: 'Figtree', system-ui, sans-serif;
+
+  --ombre: 4px 4px 0 var(--encre);
+  --ombre-grande: 6px 6px 0 var(--encre);
+  --trait: 2px solid var(--encre);
+  --rayon: 18px;
+  --rayon-petit: 12px;
+
+  --largeur: 1200px;
+  --gouttiere: clamp(18px, 4vw, 40px);
+  --section: clamp(56px, 9vw, 110px);
+  --entete: 84px;
+}
